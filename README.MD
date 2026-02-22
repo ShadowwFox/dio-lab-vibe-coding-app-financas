@@ -44,4 +44,55 @@ Antes de finalizar a resposta, revise se o plano permite que um desenvolvedor (o
 ---
 [Aguardando processamento com tom educativo e profissional em português.]"
 
+📝 Resumo do Aura Finance
+
+O Aura Finance é um app de finanças pessoais onde, em vez de preencher formulários chatos, você conversa naturalmente — tipo "gastei 50 reais com sushi" — e ele registra tudo automaticamente, mostrando gráficos e insights sobre seus gastos.
+
+🔍 Reflexão sobre o processo
+✅ O que funcionou bem?
+
+    O chat como input principal — eliminar formulários e deixar o usuário "falar" com o app tornou tudo mais intuitivo. A IA entendeu minha intenção e criou um parser de linguagem natural simples mas funcional.
+    O visual saiu profissional — descrever o estilo como "quiet luxury" e "glassmorphism" foi suficiente para a IA gerar uma paleta escura sofisticada com gradientes dourados, sem parecer genérico. Prototipagem rápida — em uma única conversa, saí do zero para um MVP com onboarding, dashboard com gráficos e chat funcional. Isso levaria dias manualmente.
+
+❌ O que não funcionou como esperado?
+
+    O "NLP" é fake — ele só procura palavras-chave ("sushi" → Alimentação). Se eu digitar "comi fora", ele não entende. É um mock, não inteligência real.
+    Sem persistência — ao recarregar a página, todos os dados somem. Falta um banco de dados real (como o Lovable Cloud) para salvar as transações.
+    Limitações de escopo — a IA às vezes quer fazer tudo de uma vez. Aprendi que preciso ser específico nos pedidos para não perder o controle.
+
+🧠 O que aprendi sobre conversar com IAs?
+
+    Contexto é rei — quanto mais detalhes eu dou (paleta de cores, estilo visual, fluxo de telas), melhor o resultado. Pedidos vagos = resultados genéricos.
+    Iterar > perfeição — é melhor pedir uma versão básica e ir refinando do que tentar descrever tudo perfeitamente de uma vez.
+    A IA não "sabe" o que eu quero — ela interpreta. Aprendi a revisar, testar e corrigir em vez de confiar cegamente.
+    Prompt engineering é uma skill real — a diferença entre um resultado medíocre e um excelente está em como você pede, não o que você pede.
+
+    Conclusão: Construir com IA é como ter um dev júnior muito rápido — ele faz o trabalho pesado, mas você precisa dirigir, revisar e pensar criticamente. O app não é perfeito, mas como ferramenta de aprendizado, o processo foi incrível. 🚀
+
+📝 Resumo do Aura Finance
+
+O Aura Finance é um app de finanças pessoais onde, em vez de preencher formulários chatos, você conversa naturalmente — tipo "gastei 50 reais com sushi" — e ele registra tudo automaticamente, mostrando gráficos e insights sobre seus gastos.
+🔍 Reflexão sobre o processo
+✅ O que funcionou bem?
+
+    O chat como input principal — eliminar formulários e deixar o usuário "falar" com o app tornou tudo mais intuitivo. A IA entendeu minha intenção e criou um parser de linguagem natural simples mas funcional.
+    O visual saiu profissional — descrever o estilo como "quiet luxury" e "glassmorphism" foi suficiente para a IA gerar uma paleta escura sofisticada com gradientes dourados, sem parecer genérico.
+    Prototipagem rápida — em uma única conversa, saí do zero para um MVP com onboarding, dashboard com gráficos e chat funcional. Isso levaria dias manualmente.
+
+❌ O que não funcionou como esperado?
+
+    O "NLP" é fake — ele só procura palavras-chave ("sushi" → Alimentação). Se eu digitar "comi fora", ele não entende. É um mock, não inteligência real.
+    Sem persistência — ao recarregar a página, todos os dados somem. Falta um banco de dados real (como o Lovable Cloud) para salvar as transações.
+    Limitações de escopo — a IA às vezes quer fazer tudo de uma vez. Aprendi que preciso ser específico nos pedidos para não perder o controle.
+
+🧠 O que aprendi sobre conversar com IAs?
+
+    Contexto é rei — quanto mais detalhes eu dou (paleta de cores, estilo visual, fluxo de telas), melhor o resultado. Pedidos vagos = resultados genéricos.
+    Iterar > perfeição — é melhor pedir uma versão básica e ir refinando do que tentar descrever tudo perfeitamente de uma vez.
+    A IA não "sabe" o que eu quero — ela interpreta. Aprendi a revisar, testar e corrigir em vez de confiar cegamente.
+    Prompt engineering é uma skill real — a diferença entre um resultado medíocre e um excelente está em como você pede, não o que você pede.
+
+    Conclusão: Construir com IA é como ter um dev júnior muito rápido — ele faz o trabalho pesado, mas você precisa dirigir, revisar e pensar criticamente. O app não é perfeito, mas como ferramenta de aprendizado, o processo foi incrível. 🚀
+
+
 
